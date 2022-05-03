@@ -1,5 +1,7 @@
 # Grasp-and-Lift-EEG-feature-extraction-using-CWT
-# A practical approach to classifying Grasp and Lift events of EEG signals using Continuous Wavelet Transform...
+A practical approach to classifying Grasp and Lift events of EEG signals using Continuous Wavelet Transform...
+
+
 Talking about Wavelet Transform;
 A wavelet is a wave-like oscillation that is localized in time, wavelets have two basic properties: scale and location. Scale defines how stretched or how compact the wavelet is. Location describes what position in time the wavelet is positioned. A typical example of a wavelet is the Morlet wavelet (morl).
 In wavelet transform, the basic idea is to compute how much of a wavelet is in a signal for a particular scale and location. A wavelet with a particular scale is convolved across the entire signal in time. The result of this convolution or signal multiplication gives the coefficient for that wavelet scale at that time step, the process is then repeated with increase in the wavelet scale.
